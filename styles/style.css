@@ -1,20 +1,24 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
 }
 
 body {
     font-family: Roboto, san-serif;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
+    /* min-height: 100vh; */
 }
 
 header {
     display: flex;
     justify-content: space-around;
-    padding: 8px;
-    border-bottom: 1px solid black;
+    padding: 24px;
     align-items: center;
     background-color: #1f2937;
     color: #F9FAF8;
