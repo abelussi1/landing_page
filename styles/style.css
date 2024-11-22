@@ -29,17 +29,47 @@ header {
 
 }
 
-ul {
+header ul {
     display: flex;
     gap: 1em;
     align-items: center;
 }
 
-li {
+header li {
     list-style-type: none;
 }
 
-a {
+header a {
     text-decoration: none;
+    color: #F9FAF8;
+}
+
+.awesome {
+    height: 280px;
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    background-color: #1F2937;
+}
+
+.calltoaction h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.calltoaction p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.placeholder {
+    padding: 100px;
+    background-color: gray;
+    display: flex;
+    flex-shrink: 0;
+    margin-left: 12px;
     color: #F9FAF8;
 }
