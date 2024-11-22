@@ -181,3 +181,12 @@ figcaption {
     font-weight: 900;
 }
 
+footer {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color:#F9FAF8;
+}
+
