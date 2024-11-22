@@ -21,6 +21,8 @@ header {
     align-items: center;
     background-color: #1f2937;
     color: #F9FAF8;
+    position: sticky;
+    top: 0;
 }
 
 .logo {
@@ -53,22 +55,22 @@ header a {
     background-color: #1F2937;
 }
 
-.calltoaction {
+.calltoaction1 {
     width: 420px;
 }
 
-.calltoaction h1 {
+.calltoaction1 h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
-.calltoaction p {
+.calltoaction1 p {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.calltoaction button {
+.calltoaction1 button {
     padding: 8px 32px;
     margin-top: 6px; 
     border-radius: 8px;
@@ -147,3 +149,35 @@ figcaption {
     font-size: 36px;
     font-weight: 250;
 }
+
+.signup {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    width: 80vw;
+    display: flex;
+    padding: 48px;
+    background: #3882F6;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.calltoaction2 {
+    color:#F9FAF8
+}
+
+.signupbutton button {
+    padding: 8px 32px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 3px solid #F9FAF8;
+    font-size: medium;
+    font-weight: 900;
+}
+
