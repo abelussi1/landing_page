@@ -45,13 +45,17 @@ header a {
 }
 
 .awesome {
-    height: 280px;
+    height: 420px;
     display: flex;
     border-bottom: 1px solid black;
     justify-content: center;
     align-items: center;
     gap: 2em;
     background-color: #1F2937;
+}
+
+.calltoaction {
+    width: 420px;
 }
 
 .calltoaction h1 {
@@ -71,7 +75,9 @@ header a {
     border-radius: 8px;
     color: #E5E7EB;
     background-color: #3882F6;
+    font-size: medium;
     font-weight: 900;
+    border: 0.10px solid black;
 }
 
 .placeholder {
