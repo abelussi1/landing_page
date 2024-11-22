@@ -65,6 +65,15 @@ header a {
     color: #E5E7EB;
 }
 
+.calltoaction button {
+    padding: 8px 32px;;
+    margin-top: 6px; 
+    border-radius: 8px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    font-weight: 900;
+}
+
 .placeholder {
     padding: 100px;
     background-color: gray;
