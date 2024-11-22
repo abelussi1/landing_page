@@ -12,7 +12,6 @@ body {
     font-family: Roboto, san-serif;
     display: flex;
     flex-direction: column;
-    /* min-height: 100vh; */
 }
 
 header {
@@ -70,14 +69,15 @@ header a {
 }
 
 .calltoaction button {
-    padding: 8px 32px;;
+    padding: 8px 32px;
     margin-top: 6px; 
     border-radius: 8px;
     color: #E5E7EB;
     background-color: #3882F6;
     font-size: medium;
     font-weight: 900;
-    border: 0.10px solid black;
+    border: 0;
+
 }
 
 .placeholder {
